@@ -13,7 +13,7 @@ st.set_page_config(page_title="Statistical Test Selector", layout="centered")
 @st.cache_resource
 def load_artifacts():
     # замените <USERNAME>/<REPO> путём к вашему репозиторию
-    base_url = "https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/artifacts/"
+    base_url = "https://raw.githubusercontent.com/sss0411/STS/main/artifacts/"
 
     model_url = base_url + "stat_test_model.joblib"
     encoder_url = base_url + "encoder.joblib"
